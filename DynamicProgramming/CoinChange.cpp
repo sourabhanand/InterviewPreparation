@@ -1,0 +1,51 @@
+
+// } Driver Code Ends
+class Solution
+{
+ public:
+   std::vector<std::vector<long long int>> table;
+   void init(int m, int n) {
+       table.resize(m);
+       for(int i = 0; i < m; ++i) {
+           table[i].resize(n);
+       }
+       for(int i = 0; i < n; ++i)
+           table[0][i] = 0;
+       for(int i = 0; i < m; ++i)
+           table[i][0] = 1;
+   }
+   long long int count( int S[], int m, int n )
+   {
+       init(m+1, n+1);
+       for(int i = 1; i <= m; ++i) {
+           for(int j = 1; j <= n; ++j) {
+               if(S[i-1] <= j) {
+                   table[i][j] = table[i][j-S[i-1]] + table[i-1][j];
+               } else {
+                   table[i][j] = table[i-1][j];
+               }
+           }
+       }
+       return table[m][n];
+   }
+};
+
+// { Driver Code Starts.
+int main()
+{
+   int t;
+   cin>>t;
+   while(t--)
+   {
+       int n,m;
+       cin>>n>>m;
+       int arr[m];
+       for(int i=0;i<m;i++)
+           cin>>arr[i];
+       Solution ob;
+       cout<<ob.count(arr,m,n)<<endl;
+   }
+
+
+   return 0;
+}  // } Driver Code Ends
