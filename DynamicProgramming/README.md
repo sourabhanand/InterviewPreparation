@@ -2,3 +2,5 @@
 2. [Minimum Sum Partition: ](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1) MinimumSumPartition.cpp
 3. [Rod Cutting: ](https://practice.geeksforgeeks.org/problems/rod-cutting0840/1) RodCutting.cpp
 4. [Maximise the Cut Segments: ](https://practice.geeksforgeeks.org/problems/cutted-segments1642/1) maximumCuts.cpp, maximumCuts_recursive.cpp
+5. [Coin Change: ](https://practice.geeksforgeeks.org/problems/coin-change2448/1) CoinChange.cpp
+6. [Minimim Coins: ](https://practice.geeksforgeeks.org/problems/number-of-coins1824/1) MinimimNoOfCoins.cpp
