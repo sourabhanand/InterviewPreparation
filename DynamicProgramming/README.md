@@ -4,3 +4,4 @@
 4. [Maximise the Cut Segments: ](https://practice.geeksforgeeks.org/problems/cutted-segments1642/1) maximumCuts.cpp, maximumCuts_recursive.cpp
 5. [Coin Change: ](https://practice.geeksforgeeks.org/problems/coin-change2448/1) CoinChange.cpp
 6. [Minimim Coins: ](https://practice.geeksforgeeks.org/problems/number-of-coins1824/1) MinimimNoOfCoins.cpp
+7. [Longest Common Subsequence](https://practice.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1) LongestCommonSubsequence_recirsive.cpp
