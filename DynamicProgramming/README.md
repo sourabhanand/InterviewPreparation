@@ -5,3 +5,4 @@
 5. [Coin Change: ](https://practice.geeksforgeeks.org/problems/coin-change2448/1) CoinChange.cpp
 6. [Minimim Coins: ](https://practice.geeksforgeeks.org/problems/number-of-coins1824/1) MinimimNoOfCoins.cpp
 7. [Longest Common Subsequence](https://practice.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1) LongestCommonSubsequence_recirsive.cpp LongestCommonSubsequence_dptable.cpp
+[Coin Change 2](https://leetcode.com/problems/coin-change/discuss/1371738/C%2B%2B-Recursion-greater-DP-Memoization-greater-DP-Tabulation)
